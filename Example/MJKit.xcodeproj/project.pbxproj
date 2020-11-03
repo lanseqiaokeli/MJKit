@@ -25,6 +25,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C9AF075A2551327200687B90 /* MJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF07592551327200687B90 /* MJTool.m */; };
+		C9AF078625513CD500687B90 /* MJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF078525513CD500687B90 /* MJTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		8E18C8A801208376C7C39813 /* Pods_MJKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AF07582551327200687B90 /* MJTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJTool.h; sourceTree = "<group>"; };
 		C9AF07592551327200687B90 /* MJTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTool.m; sourceTree = "<group>"; };
+		C9AF078425513CD500687B90 /* MJTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJTest.h; sourceTree = "<group>"; };
+		C9AF078525513CD500687B90 /* MJTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTest.m; sourceTree = "<group>"; };
 		D13F76394C4AABDD4476F3CB /* Pods-MJKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-MJKit_Tests/Pods-MJKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EBFB2900B6B1CE579C6BEEB4 /* Pods-MJKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MJKit_Tests/Pods-MJKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +138,7 @@
 		6003F593195388D20070C39A /* Example for MJKit */ = {
 			isa = PBXGroup;
 			children = (
+				C9AF078B25513CEB00687B90 /* MJTest */,
 				C9AF075F2551328D00687B90 /* MJTool */,
 				6003F59C195388D20070C39A /* MJAppDelegate.h */,
 				6003F59D195388D20070C39A /* MJAppDelegate.m */,
@@ -196,6 +200,15 @@
 				C9AF07592551327200687B90 /* MJTool.m */,
 			);
 			path = MJTool;
+			sourceTree = "<group>";
+		};
+		C9AF078B25513CEB00687B90 /* MJTest */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF078425513CD500687B90 /* MJTest.h */,
+				C9AF078525513CD500687B90 /* MJTest.m */,
+			);
+			path = MJTest;
 			sourceTree = "<group>";
 		};
 		F70C6E8141A7F93B2EA9B420 /* Pods */ = {
@@ -384,6 +397,7 @@
 				6003F59E195388D20070C39A /* MJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C9AF078625513CD500687B90 /* MJTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

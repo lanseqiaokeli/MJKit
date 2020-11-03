@@ -30,7 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
+  #s.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
+  
+   s.subspec 'MJTool' do |mjtool|
+       mjtool.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
+    end
+      
+   s.subspec 'MJTest' do |mjtest|
+        mjtest.source_files = 'MJKit/Classes/MJTest/*.{h,m}'
+    end
   
   # s.resource_bundles = {
   #   'MJKit' => ['MJKit/Assets/*.png']
