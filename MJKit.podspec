@@ -34,12 +34,10 @@ TODO: Add long description of the pod here.
   
    s.subspec 'MJTool' do |mjtool|
         mjtool.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
-        mjtool.version = '0.0.2'
     end
       
    s.subspec 'MJTest' do |mjtest|
         mjtest.source_files = 'MJKit/Classes/MJTest/*.{h,m}'
-        mjtest.version = '0.0.1'
     end
   
   # s.resource_bundles = {
