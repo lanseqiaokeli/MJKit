@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MJKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of MJKit.'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'handong' => '413801445@qq.com' }
-  s.source           = { :git => 'https://github.com/handong/MJKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:lanseqiaokeli/MJKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MJKit/Classes/**/*'
+  s.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
   
   # s.resource_bundles = {
   #   'MJKit' => ['MJKit/Assets/*.png']

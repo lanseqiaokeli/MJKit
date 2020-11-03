@@ -24,6 +24,7 @@
 		60D576CC176CA661156B092C /* Pods_MJKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18C8A801208376C7C39813 /* Pods_MJKit_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C9AF075A2551327200687B90 /* MJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF07592551327200687B90 /* MJTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16D4D7E1F4B0214BECC6A697 /* MJKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MJKit.podspec; path = ../MJKit.podspec; sourceTree = "<group>"; };
-		2ABDE0FDB3358B4DCA5A47FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		16D4D7E1F4B0214BECC6A697 /* MJKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MJKit.podspec; path = ../MJKit.podspec; sourceTree = "<group>"; };
+		2ABDE0FDB3358B4DCA5A47FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3832FA4EE53ACA69A185295B /* Pods_MJKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC0EFC1B1C81EC1262DD0A5 /* Pods-MJKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MJKit_Example/Pods-MJKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MJKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +63,11 @@
 		601ECE061FC5C6C2D6A808C0 /* Pods-MJKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MJKit_Example/Pods-MJKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72A5EBDF1B7DC86E28F37074 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		72A5EBDF1B7DC86E28F37074 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E18C8A801208376C7C39813 /* Pods_MJKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AF07582551327200687B90 /* MJTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJTool.h; sourceTree = "<group>"; };
+		C9AF07592551327200687B90 /* MJTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTool.m; sourceTree = "<group>"; };
 		D13F76394C4AABDD4476F3CB /* Pods-MJKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-MJKit_Tests/Pods-MJKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EBFB2900B6B1CE579C6BEEB4 /* Pods-MJKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MJKit_Tests/Pods-MJKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +135,7 @@
 		6003F593195388D20070C39A /* Example for MJKit */ = {
 			isa = PBXGroup;
 			children = (
+				C9AF075F2551328D00687B90 /* MJTool */,
 				6003F59C195388D20070C39A /* MJAppDelegate.h */,
 				6003F59D195388D20070C39A /* MJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +189,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		C9AF075F2551328D00687B90 /* MJTool */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF07582551327200687B90 /* MJTool.h */,
+				C9AF07592551327200687B90 /* MJTool.m */,
+			);
+			path = MJTool;
+			sourceTree = "<group>";
+		};
 		F70C6E8141A7F93B2EA9B420 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +206,6 @@
 				EBFB2900B6B1CE579C6BEEB4 /* Pods-MJKit_Tests.debug.xcconfig */,
 				D13F76394C4AABDD4476F3CB /* Pods-MJKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +220,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C02CC36FF28F05BEE12C16AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +259,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = handong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZYVTRPD88Q;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +272,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,24 +332,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C02CC36FF28F05BEE12C16AF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MJKit_Example/Pods-MJKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MJKit/MJKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MJKit_Example/Pods-MJKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CC219B9DFD655F281FA1F251 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AF075A2551327200687B90 /* MJTool.m in Sources */,
 				6003F59E195388D20070C39A /* MJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -494,6 +492,7 @@
 			baseConfigurationReference = 601ECE061FC5C6C2D6A808C0 /* Pods-MJKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZYVTRPD88Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MJKit/MJKit-Prefix.pch";
 				INFOPLIST_FILE = "MJKit/MJKit-Info.plist";
@@ -510,6 +509,7 @@
 			baseConfigurationReference = 4FC0EFC1B1C81EC1262DD0A5 /* Pods-MJKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZYVTRPD88Q;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MJKit/MJKit-Prefix.pch";
 				INFOPLIST_FILE = "MJKit/MJKit-Info.plist";
