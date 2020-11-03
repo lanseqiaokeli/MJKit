@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MJKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of MJKit.'
 
 # This description is used to generate tags and improve search results.
@@ -33,11 +33,13 @@ TODO: Add long description of the pod here.
   #s.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
   
    s.subspec 'MJTool' do |mjtool|
-       mjtool.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
+        mjtool.source_files = 'MJKit/Classes/MJTool/*.{h,m}'
+        mjtool.version = '0.0.2'
     end
       
    s.subspec 'MJTest' do |mjtest|
         mjtest.source_files = 'MJKit/Classes/MJTest/*.{h,m}'
+        mjtest.version = '0.0.1'
     end
   
   # s.resource_bundles = {
