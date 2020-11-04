@@ -1,9 +1,9 @@
-source 'git@github.com:lanseqiaokeli/MJKit.git'
+#source 'git@github.com:lanseqiaokeli/MJPodspec.git'
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'MJKit_Example' do
-  pod 'MJKit'
+pod 'MJKit'
 
 end
